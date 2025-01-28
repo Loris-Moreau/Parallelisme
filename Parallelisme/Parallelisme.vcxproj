@@ -156,6 +156,14 @@
   <ItemGroup>
     <ClCompile Include="Parallelisme.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\README.md" />
+    <Content Include="MatMultiplication.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OrderingWithMutex.h" />
+    <ClInclude Include="TableSum.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
