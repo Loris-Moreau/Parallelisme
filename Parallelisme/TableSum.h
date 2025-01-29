@@ -4,8 +4,10 @@
 #include <mutex>
 #include <thread>
 #include <vector>
+#include <chrono>
 
 using namespace std;
+using namespace std::chrono;
 
 // Function to compute sum sequentially
 inline int sequentialSum(const vector<int> &table)
@@ -60,7 +62,8 @@ inline int parallelSumWithLocalVariables(const vector<int> &table, int numThread
 mutex sumMutex;
 int globalSum = 0;
 
-inline void computeSumWithMutex(const vector<int> &table, int start, int end) {
+inline void computeSumWithMutex(const vector<int> &table, int start, int end)
+{
     int localSum = 0;
     for (int i = start; i < end; ++i)
     {
@@ -92,14 +95,31 @@ inline int parallelSumWithMutex(const vector<int> &table, int numThreads)
     return globalSum;
 }
 
-inline void TableSum(vector<int> table, int numThreads = 3)
+inline void TableSum(const vector<int>& table, int numThreads = 3)
 {
+    auto startClock = high_resolution_clock::now();
+    
     // Sequential version
     cout << "Sequential Sum: " << sequentialSum(table) << '\n';
 
+    auto endClock = high_resolution_clock::now();
+    cout << "Sequential Time taken: " << duration_cast<microseconds>(endClock - startClock).count() << " microseconds" << '\n';
+
+    
+    startClock = high_resolution_clock::now();
+    
     // Parallel version with thread local variables
     cout << "Parallel Sum with Local Variables: " << parallelSumWithLocalVariables(table, numThreads) << '\n';
 
+    endClock = high_resolution_clock::now();
+    cout << "Local Var Time taken: " << duration_cast<microseconds>(endClock - startClock).count() << " microseconds" << '\n';
+
+    
+    startClock = high_resolution_clock::now();
+    
     // Parallel version with global sum and mutex
     cout << "Parallel Sum with Mutex: " << parallelSumWithMutex(table, numThreads) << '\n';
+    
+    endClock = high_resolution_clock::now();
+    cout << "Mutex Time taken: " << duration_cast<microseconds>(endClock - startClock).count() << " microseconds" << '\n';
 }

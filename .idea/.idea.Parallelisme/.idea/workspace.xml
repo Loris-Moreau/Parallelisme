@@ -8,14 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48510f62-af44-41af-8b2f-bb46635bfe22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Parallelisme/MatMultiplication.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parallelisme/OrderingWithMutex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parallelisme/TableSum.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parallelisme/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parallelisme/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Parallelisme/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Parallelisme/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/MatMultiplication.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/MatMultiplication.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/OrderingWithMutex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/OrderingWithMutex.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Parallelisme/Parallelisme.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/Parallelisme.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parallelisme/Parallelisme.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/Parallelisme.vcxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/TableSum.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/TableSum.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/x64/Debug/Parallelisme.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/x64/Debug/Parallelisme.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/x64/Debug/Parallelisme.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/x64/Debug/Parallelisme.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Parallelisme/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Parallelisme/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Parallelisme.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Parallelisme.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../Files/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/__msvc_chrono.hpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Files/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/include/ratio" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -42,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;C/C++ Project.Parallelisme.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "C/C++ Project.Parallelisme.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web.server",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Parallelisme" type="CppProject" factoryName="C++ Project">
       <configuration_1 setup="1">
@@ -94,6 +99,7 @@
       <workItem from="1738055032079" duration="2812000" />
       <workItem from="1738059464627" duration="2945000" />
       <workItem from="1738066917057" duration="3638000" />
+      <workItem from="1738157313804" duration="3054000" />
     </task>
     <servers />
   </component>
